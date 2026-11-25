@@ -34,12 +34,3 @@ python predict.py some_flower.jpg
 ```
 A GPU helps but isn't required; on CPU, training the default setup takes roughly 15–30 minutes. Google Colab works well too.
 
-## Results
-Fill in from `reports/metrics.json` after training:
-
-| Phase | Validation accuracy | Validation loss |
-|---|---|---|
-| Frozen base (head only) | | |
-| After fine-tuning | | |
-
-![Training curves](reports/training_curves.png)
